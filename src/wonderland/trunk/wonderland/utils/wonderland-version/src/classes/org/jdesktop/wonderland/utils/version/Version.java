@@ -24,7 +24,7 @@ package org.jdesktop.wonderland.utils.version;
 public class Version {
     public static final String VERSION = "0.5-dev";
     public static final String REVISION = "unknown";
-    public static final String DATE = "21-October-2015";
+    public static final String DATE = "14-November-2015";
 
     public final String getVersion() {
         return VERSION;

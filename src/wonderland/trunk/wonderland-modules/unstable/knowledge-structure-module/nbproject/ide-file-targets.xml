@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir=".." name="knowledge-structure-module-IDE">
+    <!-- TODO: edit the following target according to your needs -->
+    <!-- (more info: http://www.netbeans.org/kb/articles/freeform-config.html#runsingle) -->
+    <target name="run-selected-file-in-classes">
+        <fail unless="run.class">Must set property 'run.class'</fail>
+        <java classname="org.jdesktop.wonderland.modules.knowledgestructure.test.Test" failonerror="true" fork="true">
+            <classpath>
+                <pathelement path="../../../wonderland/core/ext/common/mtgame.jar:../../../wonderland/core/ext/jme20/target/jme.jar:../../../wonderland/core/ext/sgs/sgs-server-dist-0.9.10/lib/sgs-server-api-0.9.10.jar:../../../wonderland/core/ext/sgs/sgs-server-dist-0.9.10/lib/sgs-shared-1.7.jar:../../../wonderland/core/build/lib/wonderland-server.jar:../../../wonderland/core/build/lib/wonderland-common.jar:../../../wonderland/core/build/lib/wonderland-client.jar"/>
+            </classpath>
+        </java>
+    </target>
+    <target name="compile-selected-files-in-classes">
+        <fail unless="files">Must set property 'files'</fail>
+        <!-- TODO decide on and define some value for ${build.classes.dir} -->
+        <!--<property name="build.classes.dir"  value="build"/>-->
+        <javac destdir="build/classes/org/jdesktop/wonderland/modules/knowledgestructure/test" includes="${files}" source="1.5" srcdir="src/classes/org/jdesktop/wonderland/modules/knowledgestructure/test"/>
+    </target>
+</project>

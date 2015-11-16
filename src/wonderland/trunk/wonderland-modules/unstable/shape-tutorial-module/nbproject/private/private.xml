@@ -2,12 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/prajish/ET/OpenWonderland/src/wonderland/trunk/wonderland-modules/unstable/shape-tutorial-module/src/classes/org/jdesktop/wonderland/modules/shape/common/ShapeCellServerState.java</file>
-            <file>file:/home/prajish/ET/OpenWonderland/src/wonderland/trunk/wonderland-modules/unstable/shape-tutorial-module/src/classes/org/jdesktop/wonderland/modules/shape/common/ShapeCellClientState.java</file>
-            <file>file:/home/prajish/ET/OpenWonderland/src/wonderland/trunk/wonderland-modules/unstable/shape-tutorial-module/src/classes/org/jdesktop/wonderland/modules/shape/server/ShapeCellMO.java</file>
-            <file>file:/home/prajish/ET/OpenWonderland/src/wonderland/trunk/wonderland-modules/unstable/shape-tutorial-module/src/classes/org/jdesktop/wonderland/modules/shape/client/jme/cellrenderer/ShapeCellRenderer.java</file>
-            <file>file:/home/prajish/ET/OpenWonderland/src/wonderland/trunk/wonderland-modules/unstable/shape-tutorial-module/src/classes/org/jdesktop/wonderland/modules/shape/client/ShapeCellFactory.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
